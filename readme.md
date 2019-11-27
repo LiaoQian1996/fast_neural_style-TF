@@ -128,11 +128,10 @@ cd $multi_scale_deep_texture/
       --vgg_ckpt ./vgg19/vgg_19.ckpt
   ```
   
-  #### Train new style model
+- #### Train new style model
   
   ```bash
-  #!/usr/bin/env bash
-python main.py \
+    python main.py \
     --output_dir results/ \
     --content_dir DATA/COCO_train2014_1000/ \ # train data image, in .png or .jpg
     --style_dir ./styles/starry-night.jpg \
