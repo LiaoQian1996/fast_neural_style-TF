@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 python main.py \
-    --output_dir starry-night_bn_submean/ \
-    --content_dir home/liaoqian/DATA/COC/O_train2014_1000/ \
+    --output_dir results/ \
+    --content_dir DATA/COCO_train2014_1000/ \ # train data image, in .png or .jpg
     --style_dir ./styles/starry-night.jpg \
     --mode train \
     --pre_trained False \
